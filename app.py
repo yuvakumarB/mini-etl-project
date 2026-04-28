@@ -11,7 +11,8 @@ data = [
 @app.route("/")
 def home():
     # return "Mini ETL Running!"
-    return "Mini ETL Updated via CI/CD 🚀"
+    # return "Mini ETL Updated via CI/CD 🚀"
+    return "yuva ETL pipeline"
 
 @app.route("/etl")
 def etl():
