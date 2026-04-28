@@ -10,7 +10,8 @@ data = [
 
 @app.route("/")
 def home():
-    return "Mini ETL Running!"
+    # return "Mini ETL Running!"
+    return "Mini ETL Updated via CI/CD 🚀"
 
 @app.route("/etl")
 def etl():
